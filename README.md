@@ -1,5 +1,7 @@
 # Microservices-Architecture-Guidelines
-Designing a Microservices Architecture
+
+
+### Designing a Microservices Architecture
 
 A Microservices architecture makes it possible to isolate failures through well-defined service boundaries. But like in every distributed system, there is a higher chance for network, hardware or application level issues. As a consequence of service dependencies, any component can be temporarily unavailable for their consumers. To minimize the impact of partial outages we need to build fault tolerant services that can gracefully respond to certain types of outages.
 
